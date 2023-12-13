@@ -1,0 +1,58 @@
+[
+    {
+        "img": "chair-02.png",
+        "img-retina": "chair-02@2x.png",
+        "category": "Bed",
+        "title": "Diruye",
+        "stars": "5",
+        "price": "1392"
+    },
+    {
+        "img": "chair-03.png",
+        "img-retina": "chair-03@2x.png",
+        "category": "Bed",
+        "title": "Perilo Bed",
+        "stars": "4",
+        "price": "1099"
+    },
+    {
+        "img": "chair-04.png",
+        "img-retina": "chair-04@2x.png",
+        "category": "Bed",
+        "title": "Ripei Gertino",
+        "stars": "5",
+        "price": "3519"
+    },
+    {
+        "img": "chair-01.png",
+        "img-retina": "chair-01@2x.png",
+        "category": "Bed",
+        "title": "Piortiono",
+        "stars": "5",
+        "price": "2021"
+    },
+    {
+        "img": "chair-03.png",
+        "img-retina": "chair-03@2x.png",
+        "category": "Bed",
+        "title": "Ferioni Ewope",
+        "stars": "4",
+        "price": "2821"
+    },
+    {
+        "img": "chair-02.png",
+        "img-retina": "chair-02@2x.png",
+        "category": "Bed",
+        "title": "Wertine",
+        "stars": "5",
+        "price": "3921"
+    },    
+    {
+        "img": "chair-01.png",
+        "img-retina": "chair-01@2x.png",
+        "category": "Bed",
+        "title": "Pilo Bed",
+        "stars": "5",
+        "price": "2421"
+    }
+]

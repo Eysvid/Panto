@@ -1,0 +1,58 @@
+[
+    {
+        "img": "chair-01.png",
+        "img-retina": "chair-01@2x.png",
+        "category": "Chair",
+        "title": "Sakarias Armchair",
+        "stars": "5",
+        "price": "392"
+    },
+    {
+        "img": "chair-02.png",
+        "img-retina": "chair-02@2x.png",
+        "category": "Chair",
+        "title": "Baltsar Chair",
+        "stars": "4",
+        "price": "299"
+    },
+    {
+        "img": "chair-03.png",
+        "img-retina": "chair-03@2x.png",
+        "category": "Chair",
+        "title": "Anjay Chair",
+        "stars": "5",
+        "price": "519"
+    },
+    {
+        "img": "chair-04.png",
+        "img-retina": "chair-04@2x.png",
+        "category": "Chair",
+        "title": "Nyantuy Chair",
+        "stars": "5",
+        "price": "921"
+    },
+    {
+        "img": "chair-03.png",
+        "img-retina": "chair-03@2x.png",
+        "category": "Chair",
+        "title": "Nyantuy Chair",
+        "stars": "5",
+        "price": "921"
+    },
+    {
+        "img": "chair-02.png",
+        "img-retina": "chair-02@2x.png",
+        "category": "Chair",
+        "title": "Nyantuy Chair",
+        "stars": "5",
+        "price": "921"
+    },    
+    {
+        "img": "chair-01.png",
+        "img-retina": "chair-01@2x.png",
+        "category": "Chair",
+        "title": "Nyantuy Chair",
+        "stars": "5",
+        "price": "921"
+    }
+]

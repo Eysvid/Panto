@@ -1,0 +1,37 @@
+<div class="swiper-slide">
+    <div class="card">
+        <div class="card__wrapper"></div>
+        <div class="card__img">
+            <img src="./img/products/@@img" srcset="./img/products/@@img-retina 2x" alt="item">
+        </div>
+        <div class="card__content">
+            <div class="card__row-1">
+                <span class="card__category">
+                   @@category
+                </span>
+                <h3 class="card__title">
+                    @@title
+                </h3>
+                <div class="card__stars">
+                    @@for (var i = 0; i < context.stars; i++) {
+                        <img src="./img/icons/star.svg" alt="star">
+                    }
+        
+                    @@if (context.stars < 5) {
+                        @@for (var i = 0; i < 5 - context.stars; i++) {
+                            <img src="./img/icons/star-off.svg" alt="star-off">
+                        }
+                    }
+                </div>
+            </div>
+            <div class="card__row-2">
+                <div class="card__price">
+                    <span>@@price</span>
+                </div>
+                <button class="card__btn">
+                    <img src="./img/icons/plus.svg" alt="add">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

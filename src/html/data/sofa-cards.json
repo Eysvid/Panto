@@ -1,0 +1,58 @@
+[
+    {
+        "img": "chair-04.png",
+        "img-retina": "chair-04@2x.png",
+        "category": "Sofa",
+        "title": "Xeryge Egerti",
+        "stars": "5",
+        "price": "729"
+    },
+    {
+        "img": "chair-03.png",
+        "img-retina": "chair-03@2x.png",
+        "category": "Sofa",
+        "title": "Bafisso Retio",
+        "stars": "5",
+        "price": "612"
+    },
+    {
+        "img": "chair-02.png",
+        "img-retina": "chair-02@2x.png",
+        "category": "Sofa",
+        "title": "Aperio",
+        "stars": "4",
+        "price": "755"
+    },
+    {
+        "img": "chair-01.png",
+        "img-retina": "chair-01@2x.png",
+        "category": "Sofa",
+        "title": "Getrio Pini",
+        "stars": "5",
+        "price": "811"
+    },
+    {
+        "img": "chair-03.png",
+        "img-retina": "chair-03@2x.png",
+        "category": "Sofa",
+        "title": "Lideru Ferio",
+        "stars": "5",
+        "price": "399"
+    },
+    {
+        "img": "chair-04.png",
+        "img-retina": "chair-04@2x.png",
+        "category": "Sofa",
+        "title": "Herty Sofa",
+        "stars": "5",
+        "price": "564"
+    },    
+    {
+        "img": "chair-02.png",
+        "img-retina": "chair-02@2x.png",
+        "category": "Sofa",
+        "title": "Gertyui",
+        "stars": "4",
+        "price": "764"
+    }
+]

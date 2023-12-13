@@ -1,0 +1,43 @@
+.nav__menu-icon {
+	display: none;
+
+	@include mediaLaptop {
+		display: block;
+		position: relative;
+		z-index: 99;
+	}
+}
+
+.menu-icon {
+	width: 32px;
+	height: 32px;
+	padding: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-icon span {
+	width: 100%;
+	height: 0.125rem;
+	border-radius: 0.125rem;
+	background-color: var(--accent);
+	box-shadow: 0 .5px 2px 0 hsla(0, 0%, 0%, .2);
+	transition: transform .4s, background-color .4s, opacity .4s;
+}
+
+.menu-icon--active span:nth-child(1) {
+	background-color: var(--accent);
+	transform: translateY(11px) rotate(-45deg);
+}
+
+.menu-icon--active span:nth-child(2) {
+	transform: translate(-50%);
+	opacity: 0;
+}
+
+.menu-icon--active span:nth-child(3) {
+	background-color: var(--accent);
+	transform: translateY(-11px) rotate(45deg);
+}

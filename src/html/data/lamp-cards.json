@@ -1,0 +1,58 @@
+[
+    {
+        "img": "chair-03.png",
+        "img-retina": "chair-03@2x.png",
+        "category": "Lamp",
+        "title": "Sakarias Armchair",
+        "stars": "5",
+        "price": "490"
+    },
+    {
+        "img": "chair-04.png",
+        "img-retina": "chair-04@2x.png",
+        "category": "Lamp",
+        "title": "Baltsar Few",
+        "stars": "4",
+        "price": "799"
+    },
+    {
+        "img": "chair-02.png",
+        "img-retina": "chair-02@2x.png",
+        "category": "Lamp",
+        "title": "Anjay Pdop",
+        "stars": "5",
+        "price": "530"
+    },
+    {
+        "img": "chair-01.png",
+        "img-retina": "chair-01@2x.png",
+        "category": "Lamp",
+        "title": "Nyantuy Restore",
+        "stars": "5",
+        "price": "671"
+    },
+    {
+        "img": "chair-03.png",
+        "img-retina": "chair-03@2x.png",
+        "category": "Lamp",
+        "title": "Nyantuy Fedito",
+        "stars": "5",
+        "price": "321"
+    },
+    {
+        "img": "chair-02.png",
+        "img-retina": "chair-02@2x.png",
+        "category": "Lamp",
+        "title": "Peruniu",
+        "stars": "5",
+        "price": "221"
+    },    
+    {
+        "img": "chair-01.png",
+        "img-retina": "chair-01@2x.png",
+        "category": "Lamp",
+        "title": "Opentuy Vew",
+        "stars": "5",
+        "price": "421"
+    }
+]

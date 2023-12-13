@@ -1,0 +1,49 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--white-color);
+	color: var(--text-color);
+    font-family: var(--font-main);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	a {
+		color: var(--white-color);
+	}
+}
+
+.benefit__title {
+    margin-bottom: clamp(4px, -0.036rem + 1.43vw, 20px);
+    font-size: clamp(14px, 0.696rem + 0.89vw, 24px);
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.benefit-subtitle {
+    font-size: clamp(8px, 0.357rem + 0.71vw, 16px);
+    font-weight: 400;
+    line-height: 185%;
+    opacity: 0.8;
+}
+
+.benefit__btn {
+    margin-top: 14px;
+}
+
+.more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 185%;
+
+    &--big {
+        font-size: 16px;
+    }
+}
+
+

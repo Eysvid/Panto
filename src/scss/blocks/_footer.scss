@@ -1,0 +1,113 @@
+.footer {
+    padding: clamp(15px, -1.403rem + 11.7vw, 108px) 0 clamp(15px, -0.04rem + 4.89vw, 58px);
+    background: var(--footer-bg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: var(--white-color);
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(50px, 1.534rem + 7.95vw, 120px);
+    padding: 0 clamp(0px, -2.455rem + 12.27vw, 108px);
+
+    @include mediaTablet {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    @include mediaMobile {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.footer__grid {
+    display: flex;
+    gap: 140px;
+
+    @include mediaTablet {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+.footer__content {
+    display: flex;
+    width: 293px;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.footer__title {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.28px;
+}
+
+.footer__subtitle {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 84px;
+}
+
+.footer__nav-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & h4 {
+        color: var(--accent);
+        font-family: var(--font-footer-accen);
+        font-size: 17px;
+        letter-spacing: -0.232px;
+    }
+
+    & ul li {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 160%;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+
+        @include linkAnimation;
+    }
+
+    & ul li+li {
+        padding-top: 20px;
+    }
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & span {
+        font-family: var(--font-footer-accent);
+        font-size: 15px;
+        letter-spacing: -0.205px;
+        opacity: 0.5;
+    }
+
+    @include mediaTablet {
+        flex-direction: column;
+    }
+}
+
+.footer__privacy {
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+    opacity: 0.8;
+}

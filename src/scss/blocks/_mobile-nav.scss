@@ -1,0 +1,45 @@
+.mobile-nav {
+		position: fixed;
+		top: 0;
+		right: -30%; 
+		width: 30%; 
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background: rgba(1,1,1,0.8);
+		transition: all 0.3s ease-in;
+}
+
+.mobile-nav--open {
+	right: 0;
+	z-index: 1;
+}
+
+.mobile-nav__first-list {
+	display: flex;
+	flex-direction: column;
+	font-size: clamp(20px, 0.857rem + 1.96vw, 42px);
+
+	& li + li {
+		margin-top: 30px;
+	}
+	& li a:hover {
+		opacity: 0.8;
+	}
+}
+
+.mobile-nav__second-list {
+	font-size: clamp(14px, 0.625rem + 1.25vw, 28px);
+	position: relative;
+	left: 26px;
+
+	& li+li {
+		margin-top: 10px;
+	}
+}
+
+.active {
+	color: var(--accent);
+}
