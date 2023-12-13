@@ -7,6 +7,12 @@
     position: relative;
 
     @include retina_bg (url('./../img/header/header-bg@2x.jpg'));
+
+    @include mediaMobile {
+        background-position: center;
+        padding-bottom: 200px;
+        aspect-ratio: unset;
+    }
 }
 
 .header__nav {
